@@ -7,8 +7,10 @@ import time
 import threading
 
 # 🔑 Токен и Telegram ID
-TELEGRAM_TOKEN = os.environ['TELEGRAM_TOKEN']
-YOUR_CHAT_ID = os.environ['YOUR_CHAT_ID']
+TELEGRAM_TOKEN = '7600421133:AAHGaWINYagwEyS2WzEfaowsbreFvoZ9rWQ'
+
+YOUR_CHAT_ID = '603000026'
+
 MAX_PRICE = 360
 
 bot = Bot(token=TELEGRAM_TOKEN)
